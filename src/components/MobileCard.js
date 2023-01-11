@@ -16,7 +16,7 @@ const MobileCard = ({data}) => {
         </div>
         <div className='websiteSecondDiv'>
             <a
-            href={data.url} target='_blank'
+            href={data.apk} target='_blank'
             >App Apk <BsArrowRight className='webArrowIcon'/> </a>
         </div>
         </Fade>

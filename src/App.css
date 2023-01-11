@@ -225,6 +225,15 @@ justify-content: space-between;
   .firstDivTitle{
     font-size: 35px;
   }
+  .LanguageParent{
+    flex-wrap: wrap;
+  }
+  .skillsDiv,.seconDivP{
+    font-size: 18px;
+  }
+  .firstDivA{
+    font-size: 24px;
+  }
 }
 
 @media only screen and (max-width:400px){
