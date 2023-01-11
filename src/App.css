@@ -1,38 +1,121 @@
-.App {
+/* .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+} */
+.firstSubDIv{
+  width: 80%;
+  margin: auto;
+  height: 400px;
   display: flex;
+  padding-top: 50px;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-around;
+  text-align: left;
+  align-items: flex-start;
+}
+.firstDiv{
+  background-image: url('./assets/firstImg.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  height: 500px;
+  width: 100%;
+}
+.firstDivTitle{
+  margin: 0px;
+  font-family: IBMPlexSans;
+  font-size: 55px;
+  /* font-weight:300; */
+  color: #fafafa;
+}
+.firstDivA{
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  cursor: pointer;
+  flex-direction: row;
+  font-size: 30px;
+  font-family: IBMPlexSans;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
-
-.App-link {
-  color: #61dafb;
+/* .firstDivA:hover{
+  text-decoration: underline;
+} */
+.secondDiv{
+  background-image: url('./assets/secondImg.jpg');
+  background-blend-mode:multiply;
+  background-repeat: no-repeat;
+  background-color: #383838;
+  background-size: 100% 100%;
+  background-position: center;
+  padding:20px 0px;
+  width: 100%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.secondSubDiv{
+  width: 80%;
+  margin: auto; 
+}
+.seconDivP{
+  color: #fff;
+  font-family: IBMPlexSans;
+  font-size: 20px;
+  margin-top: 0px;
+}
+.skillsDiv{
+  font-size: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  font-family: IBMPlexSans;
+  justify-content: space-between;
+}
+.skillsDiv span{
+  display: flex;
+  align-items: center;
+  user-select: none;
+}
+.serviceParent{
+display: flex;
+flex-direction: row;
+margin-top: 20px;
+justify-content: space-between;
+}
+.serviceBox{
+  width: 220px;
+  height: 90px;
+  border-radius: 10px;
+  background-color: #000;
+  display: flex;
+  box-shadow: 0px 0px 15px 0px #afafaf;
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: IBMPlexSans;
+  box-shadow: 0px 0px 15px 0px #616161;
+  user-select: none;
+  color: #fff;
+}
+.serviceBox:hover{
+  box-shadow: 0px 0px 15px 0px #fff;
+}
+.LanguageParent{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.LanguageParent1{
+  margin-top: 20px;
+}
+.webProjectsParent{
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.webProjectsParent1{
+  margin-top: 40px;
 }

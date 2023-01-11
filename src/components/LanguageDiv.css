@@ -1,0 +1,79 @@
+.LanguageDivMain{
+    width: 25%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  justify-content: center;
+    color: #fff;
+    font-size: 20px;
+}
+.languageIcon{
+    height: 50px;
+    width: 50px;
+    background-color: #000;
+    padding: 10px;
+  box-shadow: 0px 0px 15px 0px #afafaf;
+  border-radius: 50px;
+}
+.languageIcon:hover{
+  box-shadow: 0px 0px 10px 0px #afafaf;
+  transition: all 0.5s;
+    transform: scale(1.2);
+    
+}
+.LanguageDivMain span{
+    margin-top: 10px;
+    font-weight: 500;
+    user-select: none;
+}
+
+/* icons color chaned */
+.html:hover{
+    color: #E9643F;
+}
+.css:hover{
+    color: #2D6DEA;
+}
+.js:hover{
+    color: #EED956;
+}
+.react:hover{
+    color: #5FD2F0;
+}
+.redux:hover{
+    color: #7457B7;
+}
+.mongo:hover{
+    color: #3D9438;
+}
+.node:hover{
+    color: #84BF3F;
+}
+.graph:hover{
+    color: #DB5494;
+}
+.google:hover{
+    color: #D54B3E;
+}
+.mui:hover{
+    color: #1A76EB;
+}
+.expo:hover{
+    color: #4D6BE4;
+}
+.bootstrap:hover{
+    color: #6D56B6;
+}
+.nativebase:hover{
+    color: #4EB9BD;
+}
+.firebase:hover{
+    color: #F6C653
+}
+.sql:hover{
+    color: #507d9c
+}
+
+
+
