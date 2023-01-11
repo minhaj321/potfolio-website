@@ -64,7 +64,8 @@ function App() {
     video:'https://drive.google.com/file/d/17MUdLt1tHPUZjb2-P8EhyztFtbe0Wvi4/view?usp=sharing'},
     {title:'Spare Parts Dealer',url:'https://sparepartsminhaj.netlify.app',
     video:'https://drive.google.com/file/d/1vbLshvr0ENCxZLeZ-tRD9vIgnoMY8qCn/view?usp=sharing'},
-    // {title:'Habib Residency',url:'http://localhost:5000',video:''},
+    {title:'Habib Residency',url:'https://minhajhabibupdated.netlify.app/',
+    video:'https://drive.google.com/file/d/14i79632L3v3Ju_EfflPsgpLszbNdXGi2/view?usp=sharing'},
     {title:'Rent By Broker',url:'https://minhaj-project-rbb.netlify.app/',
     video:'https://drive.google.com/file/d/1Tue1ZzgzkSbOLWeCll85bO6JDGbTiVb5/view?usp=sharing'},
   ]
