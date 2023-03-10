@@ -1,0 +1,72 @@
+.experienceBg{   
+    background-image: url('./../../assets/Rectangle\ 33.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 80%;
+    margin: auto;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    justify-content: center;
+    position: relative;
+}
+.marginTop{
+    margin-top: 20px;
+}
+.experienceBg h3{
+    font-family: IBMPlexSansBold;
+    margin-top: 0px;
+    letter-spacing: 1px;
+    font-size: 28px;
+    margin-bottom: 0px;
+}
+
+.experienceBg span{
+    margin: 3px 0px;
+    user-select: none;
+    font-family: IBMPlexSans;
+    font-size: 20px;
+}
+
+
+@media only screen and (max-width:1200px){
+    .experienceBg{
+        height: 220px;
+    }
+.experienceBg h3{
+    font-size: 22px;
+}
+}
+
+@media only screen and (max-width:1000px){
+    .experienceBg{
+        height: 200px;
+    }
+.experienceBg h3{
+    font-size: 20px;
+}
+.experienceBg span{
+    font-size: 18px;
+}
+}
+
+@media only screen and (max-width:900px){
+    .experienceBg{
+        width: 95%;
+    }
+}
+
+
+@media only screen and (max-width:600px){
+    .experienceBg{
+        height: 180px;
+    }
+.experienceBg h3{
+    font-size: 18px;
+}
+.experienceBg span{
+    font-size: 16px;
+}
+}

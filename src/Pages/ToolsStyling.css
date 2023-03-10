@@ -1,0 +1,117 @@
+.libraryDiv{
+    width: 25%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  justify-content: center;
+    color: #fff;
+    font-size: 20px;
+}
+.libraryMainDiv{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.languageIcon{
+    height: 50px;
+    width: 50px;
+    background-image: url('./../assets/Ellipse\ 1.png');
+    background-repeat: no-repeat;
+    z-index: 1;
+    background-size: 100% 100%;
+    padding: 10px;
+  box-shadow: 0px 0px 15px 0px #4eddc5;
+  border-radius: 50px;
+}
+.languageIcon:hover{
+  box-shadow: 0px 0px 10px 0px #4eddc5;
+  transition: all 0.5s;
+    transform: scale(1.2);
+    
+}
+.libraryDiv span{
+    margin-top: 10px;
+    font-weight: 500;
+    z-index: 0;
+    user-select: none;
+}
+
+/* icons color chaned */
+.html:hover{
+    background: #E9643F;
+}
+.css:hover{
+    background: #2D6DEA;
+}
+.js:hover{
+    background: #EED956;
+}
+.react:hover{
+    background: #5FD2F0;
+}
+.redux:hover{
+    background: #7457B7;
+}
+.mongo:hover{
+    background: #3D9438;
+}
+.node:hover{
+    background: #84BF3F;
+}
+.graph:hover{
+    background: #DB5494;
+}
+.google:hover{
+    background: #D54B3E;
+}
+.mui:hover{
+    /* color: #D73836; */
+    background:linear-gradient(to right,#DA3936,#AF2D30);
+}
+.expo:hover{
+    background: #4D6BE4;
+}
+.express:hover{
+    background:#343434;
+}
+.bootstrap:hover{
+    background: #E33E44;
+}
+.nativebase:hover{
+    background: #4EB9BD;
+}
+.firebase:hover{
+    background: #F6C653
+}
+.sql:hover{
+    background: #507d9c
+}
+.next:hover,.socket:hover,.git:hover{
+    background: #000000;
+}
+@media only screen and (max-width:600px){
+    .libraryDiv span{
+        font-size: 16px;
+    }
+    .languageIcon{
+        height: 40px;
+        width: 40px;
+    }
+}
+
+@media only screen and (max-width:450px){
+    .libraryDiv span{
+        font-size: 16px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    .languageIcon{
+        height: 40px;
+        width: 40px;
+    }
+    .libraryDiv{
+        width: 50%;
+    }
+}

@@ -1,0 +1,91 @@
+
+.serviceParent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.serviceBox{
+    width: 220px;
+    height: 90px;
+    border-radius: 28px;
+    background-image: url('./../../assets/service.png');
+    display: flex;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 17px;
+    font-family: IBMPlexSans;
+    user-select: none;
+    color: #fff;
+  }
+  .serviceBox:hover{
+    box-shadow: 0px 0px 15px 0px #fff;
+  }
+
+@media only screen and (max-width:1100px){
+  .serviceBox{
+    width: 195px;
+    height: 85px;
+}  
+}  
+
+@media only screen and (max-width:1000px){
+  .serviceBox{
+    padding: 20px;
+    width: 185px;
+    font-size: 16px;
+    height: 90px;
+}  
+
+  .serviceParent{
+    /* justify-content: space-around; */
+  }
+  .serviceBox:nth-child(3){
+    /* margin-top: 10px; */
+  }
+}
+
+@media only screen and (max-width:830px){
+  .serviceBox{
+    padding: 20px;
+    width: 185px;
+    height: 90px;
+}  
+}  
+
+@media only screen and (max-width:800px){
+  .serviceParent{
+    justify-content: space-around;
+  }
+  .serviceBox:nth-child(3){
+    margin-top: 10px;
+  }
+  .serviceBox{
+    padding: 20px;
+    width: 215px;
+    height: 120px;
+}  
+
+}
+
+@media only screen and (max-width:600px){
+    .serviceParent{
+      flex-direction: column;
+      align-items: center;
+      margin-top: 0px;
+  }  
+  .serviceBox{
+    margin-top: 10px;
+      padding: 30px;
+      width: 220px;
+      height: 100px;
+    }
+  
+}
+

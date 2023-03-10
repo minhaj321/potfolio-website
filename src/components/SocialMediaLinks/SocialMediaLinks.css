@@ -1,0 +1,72 @@
+.socialMediaLinsksMain{
+    margin-top: 40px;
+}
+.socialMediaSubDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 25px;
+}
+.socialMediaContentDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.socialMediaContentDiv span{
+margin-left: 5px;
+cursor: pointer;
+color: #fff;
+  /* user-select: none; */
+  font-size: 18px;
+font-family: IBMPlexSans;
+}
+.icon{
+    transform: scale(0.6);
+}
+.iconDiv{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width:1200px){
+    .socialMediaContentDiv span{
+    font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:1000px){
+    .socialMediaContentDiv span{
+    font-size: 16px;
+    }
+    .icon{
+        transform: scale(0.5);
+    }
+}
+
+@media only screen and (max-width:900px){
+    .socialMediaSubDiv{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:700px){
+}
+
+
+@media only screen and (max-width:500px){
+  .socialMediaSubDiv{
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 0px;
+}
+.socialMediaContentDiv{
+    margin-top: 10px;
+}
+.socialMediaContentDiv span{
+    word-break: break-all;
+    }
+  }

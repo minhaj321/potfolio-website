@@ -1,0 +1,90 @@
+.headerMain{
+    background-image: url('./../../assets/headerMain.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100% 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.headerIcon{
+    margin-top: 12px;
+    cursor: pointer;
+    user-select: none;
+    height: 70px;
+    margin-left: 20px;
+}
+.headerDiv{
+height: 100%;
+display: flex;
+align-items: center;
+}
+.headerDiv span{
+    color: #fff;
+    user-select: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 100px;
+    font-family: IBMPlexSansSemiBold;
+}
+
+@media only screen and (max-width:1000px){
+.headerDiv span{
+    margin-right: 70px;
+}
+}
+
+
+@media only screen and (max-width:800px){
+.headerDiv span{
+    margin-right: 50px;
+}
+}
+
+
+@media only screen and (max-width:650px){
+.headerDiv span{
+    margin-right: 30px;
+}
+}
+
+
+@media only screen and (max-width:550px){
+.headerDiv span{
+    margin-right: 10px;
+}
+}
+
+@media only screen and (max-width:480px){
+    .headerIcon{
+        height: 50px;
+        margin-top: 6px;
+    }
+    .headerDiv span{
+        margin-right: 10px;
+        font-size: 18px;
+    }
+    .headerMain{
+        height: 70px;
+    }
+    }
+
+    
+@media only screen and (max-width:400px){
+    .headerIcon{
+        height: 40px;
+        margin-top: 13px;
+    }
+    .headerDiv span{
+        margin-right: 5px;
+        font-size: 16px;
+        font-family: IBMPlexSansBold;
+    }
+    .headerMain{
+        height: 70px;
+    }
+    .headerDiv span:nth-child(1){
+        margin-right: -5px;
+    }
+}

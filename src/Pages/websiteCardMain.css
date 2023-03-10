@@ -1,0 +1,153 @@
+.websiteCardMain{
+    width: 320px;
+    overflow: hidden;
+    height: 170px;
+    border-radius: 28px;
+    background-image: url('./../assets/service.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* padding: 10px; */
+    padding: 0px;
+    text-align: center;
+    font-family: IBMPlexSans;
+    user-select: none;
+    color: #fff;
+  }
+  .websiteCardMain:hover{
+    box-shadow: 0px 0px 15px 0px #fff;
+  }
+  .projectMain{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .websiteCardParent{
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .logoDiv{
+    transform: translateY(-60px);
+    display: flex;
+    transition: all 0.5s;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 70%;
+    margin-left: 15%;
+    height: 35%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .videoDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    transition: all 0.5s;
+    transform: translateX(-70px);
+    width: 17%;
+    margin-top: 2%;
+    height: 20%;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .videoIcon{
+    width: 60%;
+  }
+.webTitle span a{
+    color: #fff;
+    text-decoration: none;
+    font-family: IBMPlexSans;
+    font-size: 20px;
+    cursor: pointer;
+    /* padding-left: 5%; */
+    /* text-align: center; */
+    /* padding-right: 5%; */
+}
+.logoDivTrans{
+    transition: all 0.5s;
+    transform: translateY(0px);
+}
+.videoDivTrans{
+    transition: all 0.5s;
+    transform: translateX(0px);    
+}
+.webTitleTrans{
+    transition: all 0.5s;
+    transform: translateY(0px) !important;    
+}
+.webTitle{
+    margin: auto;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    transition: all 0.5s;
+    transform: translateY(-30px);    
+}
+.logoIcons{
+    max-height: 80%;
+    cursor: pointer;
+    max-width: 80%;
+}
+
+@media only screen and (max-width:1250px){
+.websiteCardMain{
+  width: 290px;
+}
+}
+
+@media only screen and (max-width:1050px){
+.websiteCardMain{
+  width: 280px;
+}
+}
+
+@media only screen and (max-width:1000px){
+  .websiteCardMain{
+    width: 100%;
+  }
+  .websiteCardParent{
+    width: 45%;
+  }
+  .projectMain{
+    justify-content: space-evenly;
+  }
+  }
+
+@media only screen and (max-width:750px){
+.webTitle span a{
+  font-size: 18px;
+}
+}
+
+@media only screen and (max-width:650px){
+  .websiteCardParent{
+    width: 48%;
+  }
+}
+
+
+@media only screen and (max-width:550px){
+  .webTitle span a{
+    font-size: 16px;
+  }
+  .websiteCardParent{
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width:450px){
+  .websiteCardParent{
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width:350px){
+  .websiteCardParent{
+    width: 95%;
+  }
+}
