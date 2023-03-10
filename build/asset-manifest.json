@@ -1,21 +1,34 @@
 {
   "files": {
-    "main.css": "/static/css/main.b011f558.css",
-    "main.js": "/static/js/main.3e4c2047.js",
+    "main.css": "/static/css/main.47cfd572.css",
+    "main.js": "/static/js/main.f792ac53.js",
     "static/js/787.63a15854.chunk.js": "/static/js/787.63a15854.chunk.js",
-    "static/media/thirdImg.jpg": "/static/media/thirdImg.d02d07eeed129a8c61c9.jpg",
+    "static/media/sparePartsBg.png": "/static/media/sparePartsBg.2ab930cee5c2cd559997.png",
+    "static/media/mainBackground.png": "/static/media/mainBackground.9da8e8a4529f34b8af9c.png",
     "static/media/secondImg.jpg": "/static/media/secondImg.f34a5d0ec2aa48b8ccdb.jpg",
     "static/media/firstImg.jpg": "/static/media/firstImg.c160ac0475e0c0c85095.jpg",
+    "static/media/hom.png": "/static/media/hom.b1514d8653e1a9a9bb56.png",
+    "static/media/avatar.png": "/static/media/avatar.b365b7e63dd894cbb2f1.png",
+    "static/media/Rectangle 33.png": "/static/media/Rectangle 33.6afd71ded223bc92922e.png",
     "static/media/IBMPlexSans-SemiBold.ttf": "/static/media/IBMPlexSans-SemiBold.f2e690b59fb90d236c08.ttf",
     "static/media/IBMPlexSans-Regular.ttf": "/static/media/IBMPlexSans-Regular.d77342fdcbcb6b3ce1b5.ttf",
     "static/media/IBMPlexSans-Bold.ttf": "/static/media/IBMPlexSans-Bold.e933eba4e2fcc3d71b31.ttf",
+    "static/media/headerMain.png": "/static/media/headerMain.852b01ce8bb4dd703e47.png",
+    "static/media/grocery.jpg": "/static/media/grocery.b9d4a813afa1480833d4.jpg",
+    "static/media/service.png": "/static/media/service.7501d122faf426a8b45d.png",
+    "static/media/logo.jpeg": "/static/media/logo.06302a13bcfcf5354e4f.jpeg",
+    "static/media/mcare.svg": "/static/media/mcare.e360d1ab7b4b3f0fc8707633cb7addb9.svg",
+    "static/media/ThingsToDoinChicagoLogoFull1.png": "/static/media/ThingsToDoinChicagoLogoFull1.40fa6dba969414f78b68.png",
+    "static/media/HabibLogo.png": "/static/media/HabibLogo.21d9efa672ba52fd7764.png",
+    "static/media/Ellipse 1.png": "/static/media/Ellipse 1.9445bde057d3d9b2df0c.png",
+    "static/media/NUTRISTEIN1.png": "/static/media/NUTRISTEIN1.8b39a7cc81d665f4c8cd.png",
     "index.html": "/index.html",
-    "main.b011f558.css.map": "/static/css/main.b011f558.css.map",
-    "main.3e4c2047.js.map": "/static/js/main.3e4c2047.js.map",
+    "main.47cfd572.css.map": "/static/css/main.47cfd572.css.map",
+    "main.f792ac53.js.map": "/static/js/main.f792ac53.js.map",
     "787.63a15854.chunk.js.map": "/static/js/787.63a15854.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b011f558.css",
-    "static/js/main.3e4c2047.js"
+    "static/css/main.47cfd572.css",
+    "static/js/main.f792ac53.js"
   ]
 }
